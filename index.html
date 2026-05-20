@@ -157,6 +157,15 @@ footer{background:#000;padding:4rem 0 2rem;border-top:1px solid rgba(184,151,58,
   .footer-top{flex-direction:column;gap:2rem;text-align:center;}
   .footer-bottom{flex-direction:column;text-align:center;}
 }
+
+/* MARCAS */
+#marcas{padding:6rem 0;background:#050504;border-top:1px solid rgba(184,151,58,.1);}
+.marcas-label{text-align:center;font-size:.75rem;letter-spacing:.35em;text-transform:uppercase;color:var(--stone);margin-bottom:3rem;}
+.marcas-grid{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:3rem 5rem;}
+.marca-item{display:flex;align-items:center;justify-content:center;opacity:.55;transition:opacity .3s;filter:grayscale(100%) brightness(1.8);}
+.marca-item:hover{opacity:.9;filter:grayscale(0%) brightness(1);}
+.marca-item img{height:36px;width:auto;object-fit:contain;}
+.marca-item.tall img{height:44px;}
 </style>
 </head>
 <body>
@@ -337,6 +346,22 @@ footer{background:#000;padding:4rem 0 2rem;border-top:1px solid rgba(184,151,58,
           <p class="form-note">Se abrirá WhatsApp con su consulta pre-armada</p>
         </form>
       </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- MARCAS -->
+<section id="marcas">
+  <div class="container">
+    <p class="marcas-label">Calidad y tecnología respaldada por las mejores marcas</p>
+    <div class="marcas-grid reveal">
+      <div class="marca-item"><img src="brand-aislar.png" alt="Grupo Aislar"></div>
+      <div class="marca-item tall"><img src="brand-barbieri.png" alt="Barbieri"></div>
+      <div class="marca-item"><img src="brand-blindex.png" alt="Blindex"></div>
+      <div class="marca-item"><img src="brand-elevate.png" alt="Elevate"></div>
+      <div class="marca-item"><img src="brand-zinco.png" alt="ZinCo"></div>
+      <div class="marca-item"><img src="brand-cellarpro.webp" alt="CellarPro"></div>
     </div>
   </div>
 </section>
